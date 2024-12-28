@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .iconArrow { content: url('/images/icon-arrow.svg'); }
+  .iconError { content: url('/images/icon-error.svg'); }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+}
